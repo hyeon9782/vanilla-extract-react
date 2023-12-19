@@ -1,4 +1,4 @@
-import { ButtonVariants, button } from "../styles/button.css";
+import { ButtonVariants, button } from "../../styles/button.css";
 
 type ButtonProps = ButtonVariants & {
   label: string;
