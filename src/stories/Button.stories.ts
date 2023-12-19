@@ -8,10 +8,11 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = {
+export const Solid: Story = {
   args: {
+    variant: "solid",
     color: "accent",
-    size: "large",
+    size: "lg",
     label: "Button",
   },
 };

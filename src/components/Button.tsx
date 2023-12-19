@@ -4,12 +4,13 @@ type ButtonProps = ButtonVariants & {
   label: string;
 };
 
-const Button = ({ color, size, label }: ButtonProps) => {
+const Button = ({ color, size, variant, label }: ButtonProps) => {
   return (
     <button
       className={button({
         color,
         size,
+        variant,
       })}
     >
       {label}

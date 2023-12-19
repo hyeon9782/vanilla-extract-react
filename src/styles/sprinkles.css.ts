@@ -5,6 +5,7 @@ const space = {
   small: "4px",
   medium: "8px",
   large: "16px",
+  xLarge: "32px",
 };
 
 const responsiveProperties = defineProperties({
