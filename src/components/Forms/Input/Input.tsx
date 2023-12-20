@@ -1,11 +1,11 @@
-import { input } from "../../styles/input.css";
+import { input } from "./input.css";
 
 type InputProps = {
   placeholder: string;
   variant: string;
 };
 
-const Input = ({ placeholder }: InputProps) => {
+const Input = ({ placeholder, variant }: InputProps) => {
   return (
     <input
       type="text"
