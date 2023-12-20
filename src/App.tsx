@@ -1,9 +1,9 @@
-import Button from "./components/Forms/Button/Button";
+import FunnelPage from "./pages/FunnelPage";
 
 function App() {
   return (
     <div>
-      <Button size="large" color="accent" label="확인하기" />
+      <FunnelPage />
     </div>
   );
 }
