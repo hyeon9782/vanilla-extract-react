@@ -4,6 +4,8 @@ type ButtonProps = ButtonVariants & {
   label: string;
 };
 
+// Gitmoji Test
+
 const Button = ({ color, size, variant, label }: ButtonProps) => {
   return (
     <button
