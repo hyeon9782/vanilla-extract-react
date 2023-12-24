@@ -5,9 +5,9 @@ import {
 import { Contract, MapLeafNodes } from "@vanilla-extract/private";
 import merge from "deepmerge";
 
-import { Theme } from "./types";
 import { getVarName } from "./utils";
 import { Mode, tokens } from "../tokens";
+import { Theme } from "./types";
 
 const createGlobalTheme = <ThemeContract extends Contract>(
   selector: string,
